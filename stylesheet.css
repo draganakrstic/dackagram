@@ -51,12 +51,15 @@ body {
     overflow: hidden;
 }
 
-.post post-title {
-    padding: 10px;
-    text-align: center;
+.post-title {
+    text-align: left;
 }
 
-.post post-date {
+.post-date {
     text-align: right;
     color: #BEBEBE;
+}
+
+.header {
+    padding: 10px;
 }
