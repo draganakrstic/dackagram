@@ -49,17 +49,31 @@ body {
     border: 1px solid #E8E8E8;
     background-color: white;
     overflow: hidden;
+    
 }
 
 .post-title {
     text-align: left;
+    flex: 1;
 }
 
 .post-date {
     text-align: right;
     color: #BEBEBE;
+    flex: 1;
 }
 
 .header {
     padding: 10px;
+    display: flex;
+}
+
+.footer {
+    padding: 10px;
+    display: flex;
+    overflow: hidden;
+}
+
+.footer-icon-like {
+margin-right: 10px;
 }
