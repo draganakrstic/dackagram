@@ -1,0 +1,62 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #fafafa;
+}
+    
+    .navbar ul {
+        font-family: 'Kodchasan', sans-serif;
+        list-style-type: none;
+        margin: 0;
+        padding: 14px 16px;
+        overflow: hidden;
+        border-bottom: 1px #B8B8B8;
+        background-color: white;
+    }
+    .navbar li a {
+        display: block;
+        color: pink;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+       
+    }
+    
+    .navbar li {
+        float: left;
+    }
+
+.content {
+    font-family: 'Kodchasan', sans-serif;
+    margin: 0 auto;
+    width: 500px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+
+
+    .post img {
+        display: block;
+        width: 100%;
+        
+    }
+
+.post {
+    border-radius: 6px;
+    margin-bottom: 10px;
+    border: 1px solid #E8E8E8;
+    background-color: white;
+    overflow: hidden;
+}
+
+.post post-title {
+    padding: 10px;
+    text-align: center;
+}
+
+.post post-date {
+    text-align: right;
+    color: #BEBEBE;
+}
