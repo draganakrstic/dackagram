@@ -75,23 +75,31 @@ body {
 
 .footer-icon-like {
 margin-right: 10px;
+cursor: pointer;
 
+}
+
+.footer-icon-comment {
+    cursor: pointer;
 }
 
 .footer-icons {
     display: flex;
 }
-input[type=text] {
-    width: auto;
-    background-color:white;
-    color: #B8B8B8;
-    padding: 8px 10px;
-    margin: 5px 0;
-    border: none;
+.comment-input {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #B8B8B8;
     border-radius: 4px;
-    cursor: pointer;
-}
+    display: none; /* Comment input je po default-u sakriven, ovaj property ćemo kasnije promeniti pomoću JS-a */
+  }
 
 .footer-like-count {
     padding: 3px;
 }
+
+* {
+    box-sizing: border-box;
+    }
+
