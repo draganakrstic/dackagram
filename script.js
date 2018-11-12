@@ -23,6 +23,7 @@ function fillHeartIcon() {
 
     likeIcon.classList.remove('far');
     likeIcon.classList.add('fas');
+    likeIcon.style.color = "red";
 
   }
   
@@ -30,4 +31,5 @@ function fillHeartIcon() {
   // Event koji slušamo je "click"
   // Kada se taj event desi, pozvaće našu funkciju
   likeIcon.addEventListener('click', fillHeartIcon);
+
 
